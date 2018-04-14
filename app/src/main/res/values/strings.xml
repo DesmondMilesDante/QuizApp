@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="science_name">Science Quiz</string>
+    <string name="history_name">History Quiz</string>
+    <string name="sports_name">Sports Quiz</string>
+
+    <string name="my_categories"><u>Categories</u></string>
+</resources>

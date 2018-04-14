@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            style="@android:style/TextAppearance.Medium"
+            android:text="1.This picture shows an person who played a important role in World War II. Who is this Guy?" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hitler" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+
+                android:id="@+id/option_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Adolf Hitler" />
+
+            <RadioButton
+                android:id="@+id/option_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Josef Stalin" />
+
+            <RadioButton
+
+                android:id="@+id/option_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Benito Mussolini" />
+
+            <RadioButton
+
+                android:id="@+id/option_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Winston Churchill" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            style="@android:style/TextAppearance.Medium"
+            android:text="2.Who among the following participated in Khilafat Movement??" />
+
+        <CheckBox
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shaukat Ali" />
+
+        <CheckBox
+            android:id="@+id/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M.A Ansari" />
+
+        <CheckBox
+            android:id="@+id/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohammad Ali Jinnah" />
+
+        <CheckBox
+            android:id="@+id/orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="Maulana Abul Kalam Azad" />
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@android:style/TextAppearance.Medium"
+            android:fontFamily="sans-serif"
+            android:text="3. Name the first President of India? " />
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/submit_answers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="submitAnswer"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+
+</ScrollView>
